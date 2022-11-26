@@ -4,7 +4,9 @@ public class Huhn extends Tier implements IPflanzenfresser {
     }
 
     @Override
-    public Integer fressen(Tier tier, Pflanze pflanze) {
-        return null;
+    public void fressen(Pflanze pflanze) {
+        this.setEnergie(pflanze.getEnergie()+this.getEnergie());
     }
+
+
 }
