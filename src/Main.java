@@ -17,6 +17,11 @@ public class Main {
         zoo.add(mais);
         zoo.add(huhn1);
 
+
+
+
+
+
         System.out.println(huhn1);
 
 

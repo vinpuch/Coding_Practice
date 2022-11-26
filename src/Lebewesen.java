@@ -20,6 +20,7 @@ public class Lebewesen{
     public String toString() {
         return "Lebewesen{" +
                 "_lebensstatus=" + _lebensstatus +
+                ", _energie=" + _energie +
                 '}';
     }
 
@@ -38,4 +39,9 @@ public class Lebewesen{
     public void setEnergie(Integer _energie) {
         this._energie = _energie;
     }
+
+
+
+
+
 }
