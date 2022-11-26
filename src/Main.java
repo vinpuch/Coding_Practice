@@ -1,5 +1,4 @@
-
-
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,7 +9,9 @@ public class Main {
         Tier huhn = new Tier(Lebend.LEBEN, 1500);
         Pflanze mais = new Pflanze(Lebend.LEBEN, 300);
 
-
+        ArrayList<Lebewesen> zoo = new ArrayList<>();
+        zoo.add(mais);
+        zoo.add(huhn);
 
     }
 }

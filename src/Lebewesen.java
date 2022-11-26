@@ -1,4 +1,4 @@
-public class Lebewesen {
+public class Lebewesen{
     public Lebend getLebensstatus(Lebend _lebensstatus) {
         if (_lebensstatus == Lebend.TOD){
             return _lebensstatus;
