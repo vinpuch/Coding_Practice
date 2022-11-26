@@ -31,11 +31,11 @@ public class Lebewesen {
     private Lebend _lebensstatus;
     private Integer _energie;
 
-    public Integer get_energie() {
+    public Integer getEnergie() {
         return _energie;
     }
 
-    public void set_energie(Integer _energie) {
+    public void setEnergie(Integer _energie) {
         this._energie = _energie;
     }
 }
