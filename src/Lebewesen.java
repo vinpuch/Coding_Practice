@@ -1,5 +1,5 @@
 public class Lebewesen{
-    public Lebend getLebensstatus(Lebend _lebensstatus) {
+    public Lebend getLebensstatus() {
         if (_lebensstatus == Lebend.TOD){
             return _lebensstatus;
         }

@@ -5,8 +5,13 @@ public class Huhn extends Tier implements IPflanzenfresser {
 
     @Override
     public void fressen(Pflanze pflanze) {
-        this.setEnergie(pflanze.getEnergie()+this.getEnergie());
-        pflanze.setLebensstatus(Lebend.TOD);
+        if (pflanze.getLebensstatus() == Lebend.AUFGEFRESSEN) {
+            throw new RuntimeException("Pflanze wurde nicht aufgefressen");
+        }
+        this.setEnergie(pflanze.getEnergie() + this.getEnergie());
+
+        pflanze.setLebensstatus(Lebend.AUFGEFRESSEN);
+
 
     }
 

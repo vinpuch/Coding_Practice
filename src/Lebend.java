@@ -1,4 +1,5 @@
 public enum Lebend {
     LEBEN,
-    TOD
+    TOD,
+    AUFGEFRESSEN
 }
