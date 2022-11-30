@@ -3,10 +3,8 @@ public class Lebewesen{
         if (_lebensstatus == Lebend.TOD){
             return _lebensstatus;
         }
-        else{
-            throw new RuntimeException("tier ist am leben");
 
-        }
+        return null;
     }
 
 
