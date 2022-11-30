@@ -72,7 +72,7 @@ public class Main {
 
     public static ArrayList<Integer> tal(int b) {
 
-       var p = new ArrayList<Integer>(zahl(0,b));
+       var p = new ArrayList<>(zahl(0,b));
 
         return p;
     }
